@@ -1,0 +1,400 @@
+#Booleans:
+100 Medical power generator on
+
+#New & used datalets
+1 Armory combo -- 705.
+2 Boarding bridge code -- 573
+3 Cargo hold secured by SHODAN and Cyber Cortex Reavers
+4 SHODAN neural buds were fabricated and installed in the cargo hold
+7 SHODAN security presence controlled by CPUs and maintained by security cameras
+
+#New Trap Messages:
+119 Medical emergency power generator online
+120 Restore power or start medical emergency power generator
+121 Cyberspace backdoor injected
+122 Isolinear chip fabricated
+123 Cyberspace lock
+124 Restore power
+
+# New Various Messages:
+120 Restore power
+122 Cortex Reaver cyberspace lock
+
+# Access card names
+29 Pod Pilot Group
+
+# Panel names
+3 Backup battery release
+4 Starter battery receptacle
+5 Isolinear chip receptacle
+11 Cyberspace entry pointer injection attack
+12 Buffer overflow attack
+13 Control network cyber terminal
+14 Diagnostic network cyber terminal
+
+# Info node 8/5/6
+16 Diagnostic network corruption
+17 Control network corruption
+18 I/O interface corrupted
+19 Control processor operational
+20 Illegal memory access. The address line was manually reconfigured.
+
+# Screen messages
+70
+Inmates
+A 451 of 512
+B 500 of 512
+
+71
+TriOptimum
+A 31 of 32
+B 4 of 4
+
+
+## New Logs
+00 LVL0#0
+O'Niel-11.MAR.72
+Sender: William O'Niel
+Explosives, Urgent
+
+Why are prospecting equipment stored next to the plasma propulsion engine, auxiliary power generators and main cargo elevator?
+This is the worst place to store high explosive charges.
+These need to be moved from maintenance into the cargo hold or one of the exterior containers.
+
+Why are high explosive charges stored next to the plasma propulsion engine, auxiliary power generators and main cargo elevator?
+
+01 LVL0#1
+Harriman-10.MAR.72
+Sender: Walter Harriman
+Vice President of Marketing
+
+Diego has personally assigned one of his goons to the ship's crew. I have accommodated her in executive suites.
+You need to prepare an additional cryo pod from storage. Please, make sure Dr. Cottle runs all necessary labwork on her.
+Oh, and make sure she doesn't have access to executive computers in the suites unless she sends a formal request to the captain.
+I don't want her snooping around.
+
+Diego has assigned one of his goons to the ship's crew.
+Make sure she doesn't have access to executive computers in the suites.
+
+16 LVL1#0
+diagnostic-24.DEC.72
+Cryonic stasis pod-140
+Tampering detected
+
+Access denied.
+Access denied.
+Pod malfunction detected.
+Starting revival process.
+Power failure detected, switching to the backup supply.
+Enforcing emergency revival protocol.
+
+Pod malfunction detected.
+Enforcing emergency revival protocol.
+
+17 LVL1#1
+McClane-23.DEC.72
+Sender: John McClane
+Current situation
+
+SHODAN has been converting cryonic sleepers to cyborgs. I had to jettison the port side chambers which caused a depressurization of administrative/customs. I am now being hunted by Shodan. I have prepared a plan to gain control of the ship back.
+
+SHODAN has been converting cryonic sleepers to cyborgs. Administrative/customs is depressurized. I have prepared a plan to gain control of the ship back.
+
+18 LVL1#2
+Lowell-04.APR.72
+Sender: Freeman Lowell
+Batteries
+
+I have moved the auxiliary starter batteries to the grove to power the grow lights during silent running periods.
+There should be plenty of power left for the auxiliary generator to restart after the cryonic part of the trip.
+
+Auxiliary starter batteries are in the grove.
+
+19 LVL1#3
+Cottle-11.MAR.72
+Sender: Sherman Cottle
+Emergency generator
+
+Hey William, We ran systems checks on the medical emergency power generator. All looks green to go.
+Outside of the infirmary, it can power the doors and elevators with minimal requirements; no grav assist in the corridor or heavy cargo in the main elevator.
+I checked the inventory and we do have dartgun and tranquilizers and all of the med staff has qualification for it. No missing or extra articles were found.
+Those stimulants didn't come from us.
+
+Medical emergency power generator can power the doors and elevators.
+Dartgun and tranquilizers are in the infirmary.
+
+20 LVL1#4
+McClane-24.DEC.72
+Sender: John McClane
+Groves
+
+SHODAN has allocated a lot of resources to groves and biological systems.
+All of the environmental settings are way off and there is a contamination alert on the beta grove.
+I could try to reset the settings, or shut it all down, or burn it all, or break the ceiling.
+
+SHODAN has allocated a lot of resources to groves and biological systems.
+There is a contamination alert on the beta grove.
+
+21 LVL1#5
+O'Niel-12.MAR.72
+Sender: William O'Niel
+Patch Trafficker
+
+Found a note that says "hidden in the soft".
+There are traces of glue used in dermal patches on it.
+
+32 LVL2#0
+McClane-24.DEC.72
+Sender: John McClane
+Progress
+
+I managed to slow down SHODAN's plans by shutting down plasma propulsion. It's temporary but will buy me some time.
+I'm going to need help to access cyberspace. I need to find someone who isn't too far into cyborg conversion.
+I need to figure out how to hack those pods. Maybe a logic probe or system analyzer.
+
+I have shut down plasma propulsion engines to buy more time.
+I need access to cyberspace and need someone who isn't too far into cyborg conversion to do it.
+
+33 LVL2#1
+O'Niel-10.MAR.72
+Sender: William O'Niel
+Patch Trafficker in Citadel
+
+Jill Verelli of Citadel station sent an email asking about controlled med patches being trafficked in Citadel.
+Haven't heard anything about that, so I didn't reply yet.
+I'll ask around.
+
+Jill Verelli asked in an email about med patches being trafficked in Citadel.
+I'll ask around.
+
+34 LVL2#2
+Frye-21.MAR.72
+Sender: Lee Frye
+Mainframe Malfunction
+
+Cyberspace technicians have been having problems with mainframe memory access.
+There is no way the captain will turn the ship back to Citadel station and there is no time before cryosleep.
+So, I've manually changed some of the address lines to allow uninterrupted operation of important routines.
+Modifications are easily reversed at the mainframe diagnostic panel with a logic probe or manual routing.
+Remember to ask the doctor for more GME patches.
+
+Problems with cyberspace mainframe memory access.
+The captain will not turn the ship back and we have no time to repair.
+Changed address lines to allow uninterrupted operation of important routines.
+Modifications are easily reversed at the mainframe diagnostic panel with a logic probe or manual routing.
+
+48 LVL3#0
+Lena-01.OCT.72
+Sender: Dr. Lena
+New formulae
+
+We got confidential orders to start new experiments from Citadel. I am going to revise the security protocols before briefing the crew.
+Retinal scanner access to habitats will be restricted to me and Dr. Stone only.
+These new mutagens look very potent. Haven't seen anything like this before.
+
+Got an order for new experiments from Citadel.
+Retinal scanner access is restricted to me and Dr. Stone.
+
+49 LVL3#1
+Lena-02.OCT.72
+Sender: Dr. Lena
+#33 and #34
+
+Release #33 subjects 55, 68 and 295 for transfer.
+Prepare #34 subjects 33, 221, 230, 164, 435 and 613 for 12.OCT.72 release.
+
+Release #33 subjects and prepare #34 subjects for 12.OCT.72 release.
+
+50 LVL3#2
+Lena-14.OCT.72
+Sender: Dr. Lena
+Confrontation
+
+Subject 295 (#33) took Dr. Stone hostage at night shift.
+He stole Dr. Stones' access card and got to waste processing through a disposal chute.
+The subject was subdued at the medical maintenance hatch.
+Some of the samples were damaged but not breached.
+I have ordered the subject for medical treatment before we continue on the tests.
+
+Subject 295 (#33) took Dr. Stone hostage.
+Escaped to waste processing with Dr. Stones' access card through the disposal chute.
+Was subdued at the medical maintenance hatch.
+Samples were damaged but not breached.
+Subject in medical treatment.
+
+51 LVL3#3
+Stone-19.DEC.72
+Sender: Dr. Stone
+Escape
+
+Lena is dead. Prisoners escaped during shift change briefing. They cut off her head and murdered one of the nurses.
+There is a potential virus sample breach and some of the mutated subjects are out of containment.
+I'm going to get security and get back to the labs.
+Round #42 was in the hospital being prepared and may have been contaminated.
+We are going to need to dispose of all of the preliminary subjects.
+
+Lena is dead. Escaped prisoners cut off her head.
+Mutated subjects are out of containment and there may be a virus sample breach.
+I'm going to get security and get back to the labs.
+Round #42 may have been contaminated.
+All of the preliminary subjects will be disposed of.
+
+52 LVL3#4
+Stone-20.DEC.72
+Sender: Dr. Stone
+Progress
+
+We managed to trap the murderers. One of them got away with an exterior repair pod. He won't get far.
+Two of them are in coolant maintenance at the energy level.
+We are going to revive one of the senior commanders for ship access and recall the repair pod.
+He's also going to assist in taking control of the lab.
+
+Two of the murderers are trapped in the energy level's coolant maintenance.
+One of them got away with an exterior repair pod.
+A commander is being revived for repair pod recall and taking control of the lab.
+
+## New Emails
+0
+McClane-1
+Sender: John McClane
+Reminder
+
+You have probably lost your memory in cyborg conversion and emergency revival so here's a reminder.
+We are in a long-range research and discovery vessel.
+We started our voyage towards the interstellar space from Citadel station but are currently drifting towards Earth.
+Shodan has taken control of the ship's systems and networks somehow. We can reduce her influence by destroying local computer nodes and cameras.
+There are lots of weaponry in the marshal's office, but I don't have a way to get to them.
+Be aware that Shodan's creations can now move freely.
+I'll tell you about the plan as soon as I have made some preparations.
+
+Cyborg conversion and emergency revival have messed up your memory.
+We launched from Citadel station towards the interstellar space but are currently drifting towards Earth.
+Shodan has taken control of the ship's systems and networks.
+We can reduce her influence by destroying local computer nodes and cameras.
+There are lots of weaponry currently inaccessible in the marshal's office.
+Shodan's creations can now move freely.
+
+1
+McClane-2
+Sender: John McClane
+Earth in danger
+
+We need to gain control of the ship's guidance, navigation and control computer.
+I have managed to separate GNC from the ships network but SHODAN has reprogrammed the orbital trajectory with the earth into it.
+Each of the three subsystems needs clean initial code in an isolinear chip. Order doesn't matter.
+I don't have a neural interface so you will have to jack in and retrieve them.
+There is a cyberspace terminal with an isolinear fabricator on each level.
+You will need Command, Administrator and Security clearances to access all of the cyberspace terminals.
+There should be an environment suit in the shuttle bay. 
+I managed to procure some aids and an exterior repair pod access card for you. They are at the elevator.
+
+Guidance, navigation and control computer needs three new isolinear chips. Order doesn't matter.
+There is a cyberspace terminal with an isolinear fabricator on each level.
+You will need Command, Administrator and Security clearances to access all of the cyberspace terminals.
+There is an environment suit in the shuttle bay.
+Aids and exterior repair pod access card at the elevator.
+
+2
+McClane-5
+Sender: John McClane
+von Neumann bottleneck
+
+Good! The ship is turning away from earth.
+Full SHODAN consists of a diagnostic network, control network, data network, processing nodes, control processors and I/O interfaces.
+We need to access SHODAN's diagnostic network and somehow interfere with its control and data network until it loses all control of the ship's systems.
+After that, we need to make sure SHODAN isn't running on emulation mode anywhere and gain back access to its hardware.
+You need to find where SHODAN is and do what you can.
+
+The ship is turning away from earth.
+You need to find where SHODAN is and access its diagnostic network.
+
+3
+McClane-3
+Sender: John McClane
+Experiments
+
+This port side module isn't just a cryonic storage for the crew.
+Tri-Optimum has been rotating staff the whole time and conducting long-term mutagen experiments here.
+Far away from earth governments. I found out the revised specs were given by Citadel VP Edward Diego personally.
+Immediately after SHODAN infiltrated the system it started to give detailed instructions to the staff using Diego's ID.
+Progress on the experiments increased exponentially on each iteration. There was a malfunction and contamination of the staff.
+It wasn't long after that I escaped and jettisoned the module.
+There is a staff member with Command access here. Find him.
+
+Tri-Optimum has been conducting long-term mutagen experimets here.
+Revised orders were given by Citadel VP Edward Diego personally
+After SHODAN infiltrated the system it gave detailed instructions to the staff.
+Experiments progress increased exponentially on each iteration.
+There was a malfunction and contamination of the staff.
+I escaped and jettisoned the module.
+Find a staff member with Command access.
+
+4
+McClane-4
+Sender: John McClane
+Truth
+
+Tri-Optimum is one of the corporations running prisons on and off the Earth.
+There are many conspiracy theories about prisoners being used in illegal experiments and worked to death.
+In the case of Tri-Optimum those are true. I was one of the prisoners stored here.
+Only to wake up into a nightmare.
+
+Conspiracy theories about prisoners being used in illegal experiments are true.
+I was one of the prisoners stored here.
+Only to wake up into a nightmare.
+
+5
+**
+**
+**
+
+**
+
+6
+McClane-5
+Sender: John McClane
+SHODAN cracked
+
+Looks like cyberspace entry pointer injection is in operation.
+You should now be able to enter into SHODAN's data network at the cyberterminal in ships bridge.
+You need to find SHODAN's main process in there and kill it.
+I'm heading to the bridge. Meet me there.
+
+Enter SHODAN's data network at cyber terminal in ships bridge.
+Find SHODAN's main process and kill it.
+Meet me at the bridge.
+
+26 (initial hardcoded email)
+syslog-1
+Sender: Multimedia Data Reader
+Connection failed
+
+Using wireless connection.
+ERROR: Service discovery failed.
+ERROR: Connection to default delivery agent failed.
+ERROR: No peer-to-peer targets found in broadcast mode.
+Retrying.
+
+ERROR: Email connection failed.
+Retrying.
+
+# Papers:
+3
+I had to turn off the plasma engines. We are now drifting toward earth.
+All elevators and doors are powered off.
+Two starter batteries are required to turn on the auxiliary power generators near the engine maintenance below.
+
+4
+Boarding bridge emergency code 5-7-3
+
+6
+Second world
+Up along the grapevine
+
+7
+In line of sight from the grate to the twins
+
+11
+I have tried boosters, staminups, antidotes and other drugs but nothing is stopping mutations.
+I'm sorry.
+J

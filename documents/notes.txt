@@ -1,0 +1,24 @@
+People:
+SECURITY: Marshal William T. O'Niel
+GROVES: Freeman Lowell
+SURVIVOR: John McClane
+MEDICAL: Sherman Cottle
+MAINTENANCE: Lee Frye
+??: Walter Harriman
+
+BIOLOGIST: Dr. Lena
+BIOLOGIST: Dr. Stone
+
+Access:
+Generic3 raw3 STO
+Generic4 raw4 ENG
+Generic5 raw5 MED
+Generic6 raw6 MNT
+Generic7 raw7 ADM
+Group1 raw8 SEC
+Group2 raw9 COM
+Group3 raw10 Group-1 Hospi
+Group4 raw11 Group-2 React
+Group5 raw12 Group-3 Robot
+Group6 raw13 Group-4 High voltage
+Group7 raw14 Group-5 Pod pilot
