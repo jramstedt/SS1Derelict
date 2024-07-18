@@ -27,6 +27,12 @@ Mission should show up in ***modifications*** screen.
 ![Cyberspace](screenshots/4.PNG "Cyberspace")
 ![Energy controls](screenshots/5.PNG "Energy controls")
 
+## Thank you
+Christian Haas for InkyBlackness HackEd
+LookingGlass Technologies
+Night Dive Studios for [source code](https://github.com/NightDive-Studio/shockmac)
+Makers of [SYSTEMSHOCK-Portable](https://www.systemshock.org/index.php?topic=211.0)
+
 ## License
 
 All original game data is owned by its copyright holders.
