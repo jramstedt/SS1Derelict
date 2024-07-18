@@ -1,7 +1,7 @@
 # Derelict
 A System Shock mission created by Janne Ramstedt
 
-Latest version can be found at the [GitHub repository](https://github.com/jramstedt/SS1Derelict)
+Latest version can be found at the [GitHub repository releases](https://github.com/jramstedt/SS1Derelict/releases)
 
 ## Installation
 Release package contains two directories:
