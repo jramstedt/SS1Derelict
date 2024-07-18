@@ -37,7 +37,7 @@
 17 Control network corruption
 18 I/O interface corrupted
 19 Control processor operational
-20 Illegal memory access. The address line was manually reconfigured.
+20 Illegal memory access. Address reconfigured at the mainframe diagnostic panel.
 
 # Screen messages
 70
