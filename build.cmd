@@ -10,6 +10,10 @@ REM # FOR /F "skip=2 tokens=2*" %%A in (%STEAM_REG_QUERY%) DO SET SSPATH="%%B"
 FOR /F "tokens=1-3 delims=/ " %%A in ('DATE /T') DO (SET BUILD_DATE=%%C%%B%%A)
 
 SET /P SSPATH=Path to SS1 RES files: 
+IF "%SSPATH%"=="" (
+  EXIT /B 1
+)
+
 ECHO Using RES files from: %SSPATH%
 
 RD /S /Q dist

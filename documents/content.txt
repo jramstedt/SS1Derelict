@@ -334,10 +334,9 @@ McClane-4
 Sender: John McClane
 Truth
 
-Tri-Optimum is one of the corporations running prisons on and off the Earth.
-There are many conspiracy theories about prisoners being used in illegal experiments and worked to death.
-In the case of Tri-Optimum those are true. I was one of the prisoners stored here.
-Only to wake up into a nightmare.
+Tri-Optimum is one of the megacorporations running prisons on and off the Earth.
+There are many conspiracy theories about prisoners being used in illegal experiments offworld and worked to death on asteroid mining.
+In the case of Tri-Optimum those are true. I was one of the prisoners stored here in these cryonic pods. Only to wake up into a nightmare.
 
 Conspiracy theories about prisoners being used in illegal experiments are true.
 I was one of the prisoners stored here.
@@ -356,7 +355,7 @@ Sender: John McClane
 SHODAN cracked
 
 Looks like cyberspace entry pointer injection is in operation.
-You should now be able to enter into SHODAN's data network at the cyberterminal in ships bridge.
+You should now be able to enter into SHODAN's data network at the cyberterminal in ship's bridge.
 You need to find SHODAN's main process in there and kill it.
 I'm heading to the bridge. Meet me there.
 
@@ -398,3 +397,8 @@ In line of sight from the grate to the twins
 I have tried boosters, staminups, antidotes and other drugs but nothing is stopping mutations.
 I'm sorry.
 J
+
+8
+Safety and Precision:
+In microgravity environment of space, even small movements can have consequences.
+Astronauts move slowly and deliberately to ensure safety and precision in their actions, especially when working on delicate equipment or conducting experiments.

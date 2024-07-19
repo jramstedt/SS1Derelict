@@ -23,45 +23,9 @@
     "BaseContext": 1,
     "BooleanVariables": [
       {
-        "Index": 207,
-        "ResetValue": 0,
-        "Name": "Alpha grove battery",
-        "Description": ""
-      },
-      {
-        "Index": 113,
-        "ResetValue": 0,
-        "Name": "Cyberspace Cortex Reaver lock",
-        "Description": ""
-      },
-      {
         "Index": 109,
         "ResetValue": 0,
         "Name": "1 isolinear",
-        "Description": ""
-      },
-      {
-        "Index": 106,
-        "ResetValue": 0,
-        "Name": "Shodan purged NON WORKING",
-        "Description": ""
-      },
-      {
-        "Index": 112,
-        "ResetValue": 1,
-        "Name": "Medical power generator",
-        "Description": "Is medical power generator off"
-      },
-      {
-        "Index": 206,
-        "ResetValue": 0,
-        "Name": "Beta grove battery ",
-        "Description": ""
-      },
-      {
-        "Index": 108,
-        "ResetValue": 0,
-        "Name": "R isolinear",
         "Description": ""
       },
       {
@@ -71,15 +35,39 @@
         "Description": "Level 1 medical"
       },
       {
-        "Index": 107,
-        "ResetValue": 0,
-        "Name": "Shodan cyberspace hacked",
-        "Description": ""
-      },
-      {
         "Index": 110,
         "ResetValue": 0,
         "Name": "2 isolinear",
+        "Description": ""
+      },
+      {
+        "Index": 112,
+        "ResetValue": 1,
+        "Name": "Medical power generator",
+        "Description": "Is medical power generator off"
+      },
+      {
+        "Index": 108,
+        "ResetValue": 0,
+        "Name": "R isolinear",
+        "Description": ""
+      },
+      {
+        "Index": 113,
+        "ResetValue": 0,
+        "Name": "Cyberspace Cortex Reaver lock",
+        "Description": ""
+      },
+      {
+        "Index": 207,
+        "ResetValue": 0,
+        "Name": "Alpha grove battery",
+        "Description": ""
+      },
+      {
+        "Index": 106,
+        "ResetValue": 0,
+        "Name": "Shodan purged NON WORKING",
         "Description": ""
       },
       {
@@ -87,33 +75,29 @@
         "ResetValue": 0,
         "Name": "Cyberspace Backdoor",
         "Description": "Is Backdoor installed"
+      },
+      {
+        "Index": 107,
+        "ResetValue": 0,
+        "Name": "Shodan cyberspace hacked",
+        "Description": ""
+      },
+      {
+        "Index": 206,
+        "ResetValue": 0,
+        "Name": "Beta grove battery ",
+        "Description": ""
       }
     ],
     "IntegerVariables": [
-      {
-        "Index": 2,
-        "ResetValue": 0,
-        "Name": "Startup battery counter",
-        "Description": "Number of batteries installed",
-        "Limits": {
-          "Minimum": 100,
-          "Maximum": 0
-        }
-      },
-      {
-        "Index": 6,
-        "ResetValue": 0,
-        "Name": "Cyber cortex reavers defeated",
-        "Description": ""
-      },
       {
         "Index": 7,
         "ResetValue": 0,
         "Name": "Isolinear chips installed",
         "Description": "Isolinear chips installed",
         "Limits": {
-          "Minimum": 0,
-          "Maximum": 32767
+          "Minimum": 32767,
+          "Maximum": 0
         }
       },
       {
@@ -135,6 +119,22 @@
             "Name": "Left"
           }
         ]
+      },
+      {
+        "Index": 2,
+        "ResetValue": 0,
+        "Name": "Startup battery counter",
+        "Description": "Number of batteries installed",
+        "Limits": {
+          "Minimum": 0,
+          "Maximum": 100
+        }
+      },
+      {
+        "Index": 6,
+        "ResetValue": 0,
+        "Name": "Cyber cortex reavers defeated",
+        "Description": ""
       }
     ]
   },
@@ -142,11 +142,11 @@
     "levelTiles",
     "levelObjects",
     "messages",
-    "texts",
     "archive",
     "levelControl",
+    "texts",
     "bitmaps",
     "gameObjects"
   ],
-  "ActiveLevelIndex": 1
+  "ActiveLevelIndex": 0
 }
