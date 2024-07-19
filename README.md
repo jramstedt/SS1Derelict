@@ -20,6 +20,9 @@ Copy files to ```%APPDATA%\Nightdive Studios\System Shock EE\missions\derelict\`
 
 Mission should show up in ***modifications*** screen.
 
+## Tips
+You can use map markers (open full map from the FULL text in small MFD view) to take notes, write codes down, name areas and mark places you need to go. There are no quest lists or pointers in System Shock.
+
 ## Screenshots
 ![Cryo stasis bay](screenshots/1.PNG "Cryo stasis bay")
 ![Main cargo elevator](screenshots/2.PNG "Main cargo elevator")
