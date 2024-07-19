@@ -4,6 +4,8 @@ A System Shock mission created by Janne Ramstedt
 Latest version can be found at the [GitHub repository releases](https://github.com/jramstedt/SS1Derelict/releases)
 
 ## Installation
+Download the ```derelict.XXXXXXXX.7z``` release package from the release page (link above).
+
 Release package contains two directories:
 
 ### SS1
