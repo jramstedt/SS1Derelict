@@ -23,10 +23,10 @@
     "BaseContext": 1,
     "BooleanVariables": [
       {
-        "Index": 109,
-        "ResetValue": 0,
-        "Name": "1 isolinear",
-        "Description": ""
+        "Index": 112,
+        "ResetValue": 1,
+        "Name": "Medical power generator",
+        "Description": "Is medical power generator off"
       },
       {
         "Index": 96,
@@ -41,15 +41,21 @@
         "Description": ""
       },
       {
-        "Index": 112,
-        "ResetValue": 1,
-        "Name": "Medical power generator",
-        "Description": "Is medical power generator off"
-      },
-      {
         "Index": 108,
         "ResetValue": 0,
         "Name": "R isolinear",
+        "Description": ""
+      },
+      {
+        "Index": 206,
+        "ResetValue": 0,
+        "Name": "Beta grove battery ",
+        "Description": ""
+      },
+      {
+        "Index": 109,
+        "ResetValue": 0,
+        "Name": "1 isolinear",
         "Description": ""
       },
       {
@@ -65,12 +71,6 @@
         "Description": ""
       },
       {
-        "Index": 106,
-        "ResetValue": 0,
-        "Name": "Shodan purged NON WORKING",
-        "Description": ""
-      },
-      {
         "Index": 111,
         "ResetValue": 0,
         "Name": "Cyberspace Backdoor",
@@ -83,9 +83,9 @@
         "Description": ""
       },
       {
-        "Index": 206,
+        "Index": 106,
         "ResetValue": 0,
-        "Name": "Beta grove battery ",
+        "Name": "Shodan purged NON WORKING",
         "Description": ""
       }
     ],
@@ -107,16 +107,16 @@
         "Description": "",
         "ValueNames": [
           {
-            "Value": 0,
-            "Name": "Locked"
-          },
-          {
             "Value": 1,
             "Name": "Right"
           },
           {
             "Value": 2,
             "Name": "Left"
+          },
+          {
+            "Value": 0,
+            "Name": "Locked"
           }
         ]
       },
@@ -139,14 +139,14 @@
     ]
   },
   "OpenWindows": [
+    "archive",
+    "bitmaps",
+    "gameObjects",
+    "levelControl",
     "levelTiles",
     "levelObjects",
     "messages",
-    "archive",
-    "levelControl",
-    "texts",
-    "bitmaps",
-    "gameObjects"
+    "texts"
   ],
-  "ActiveLevelIndex": 0
+  "ActiveLevelIndex": 2
 }

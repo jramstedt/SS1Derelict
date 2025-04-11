@@ -65,36 +65,36 @@ void ChangeLanguage(void)
     kStr lang;
     Sys.GetCvarValue("language", lang);
 
-    if (lang == "french")
-    {
-        RestabSetBase("svga_death", "svgadeth.res");
-        RestabSetBase("svga_intro", "svfrintr.res");
-        RestabSetBase("svga_end", "svgaend.res");
-        RestabSetBase("lowres_death", "lowdeath.res");
-        RestabSetBase("lowres_intro", "lofrintr.res");
-        RestabSetBase("lowres_end", "lowend.res");
-        RestabSetBase("strings", "frnstrng.res");
-        //RestabSetBase("strings", "frnstrng.cp1252.res");
-        RestabAddPatch("strings", "frnstrng.patch.res");
-        RestabSetBase("bark", "frnbark.res");
-        RestabSetBase("alog", "frnalog.res");    
-    }
-    else if (lang == "german")
-    {
-        RestabSetBase("svga_death", "svgadeth.res");
-        RestabSetBase("svga_intro", "svgeintr.res");
-        RestabSetBase("svga_end", "svgaend.res");
-        RestabSetBase("lowres_death", "lowdeath.res");
-        RestabSetBase("lowres_intro", "logeintr.res");
-        RestabSetBase("lowres_end", "lowend.res");
-        RestabSetBase("strings", "gerstrng.res");
-        //RestabSetBase("strings", "gerstrng.cp1252.res");
-        RestabAddPatch("strings", "gerstrng.patch.res");
-        RestabSetBase("bark", "gerbark.res");
-        RestabSetBase("alog", "geralog.res");
-    }
-    else // default to english
-    {
+//  if (lang == "french")
+//  {
+//      RestabSetBase("svga_death", "svgadeth.res");
+//      RestabSetBase("svga_intro", "svfrintr.res");
+//      RestabSetBase("svga_end", "svgaend.res");
+//      RestabSetBase("lowres_death", "lowdeath.res");
+//      RestabSetBase("lowres_intro", "lofrintr.res");
+//      RestabSetBase("lowres_end", "lowend.res");
+//      RestabSetBase("strings", "frnstrng.res");
+//      //RestabSetBase("strings", "frnstrng.cp1252.res");
+//      RestabAddPatch("strings", "frnstrng.patch.res");
+//      RestabSetBase("bark", "frnbark.res");
+//      RestabSetBase("alog", "frnalog.res");    
+//  }
+//  else if (lang == "german")
+//  {
+//      RestabSetBase("svga_death", "svgadeth.res");
+//      RestabSetBase("svga_intro", "svgeintr.res");
+//      RestabSetBase("svga_end", "svgaend.res");
+//      RestabSetBase("lowres_death", "lowdeath.res");
+//      RestabSetBase("lowres_intro", "logeintr.res");
+//      RestabSetBase("lowres_end", "lowend.res");
+//      RestabSetBase("strings", "gerstrng.res");
+//      //RestabSetBase("strings", "gerstrng.cp1252.res");
+//      RestabAddPatch("strings", "gerstrng.patch.res");
+//      RestabSetBase("bark", "gerbark.res");
+//      RestabSetBase("alog", "geralog.res");
+//  }
+//  else // default to english
+//  {
         RestabSetBase("svga_death", "svgadeth.res");
         RestabSetBase("svga_intro", "svgaintr.res");
         RestabSetBase("svga_end", "svgaend.res");
@@ -105,7 +105,7 @@ void ChangeLanguage(void)
         // RestabAddPatch("strings", "cybstrng.patch.res");
 		RestabSetBase("alog", "RES/citalog.res");
         RestabSetBase("bark", "RES/citbark.res");
-    }
+//    }
 }
 
 //
@@ -120,21 +120,21 @@ void OfflineChangeLanguage(void)
     kStr lang;
     Sys.GetCvarValue("language", lang);
 
-    if (lang == "french")
-    {
-    	SetTitle("Station Citadel");
-        SetDescription("Quelque chose de terrible se passe à bord de la station Citadel.\nVous êtes peut-être le seul survivant.");
-    }
-    else if (lang == "german")
-    {
-    	SetTitle("Station Citadel");
-        SetDescription("Auf der Station Citadel ist etwas furchtbar schiefgelaufen.\nDu bist vielleicht der letzte Überlebende.");
-    }
-    else // default to english
-    {
+ //   if (lang == "french")
+ //   {
+ //   	SetTitle("Station Citadel");
+ //       SetDescription("Quelque chose de terrible se passe à bord de la station Citadel.\nVous êtes peut-être le seul survivant.");
+ //   }
+ //   else if (lang == "german")
+ //   {
+ //   	SetTitle("Station Citadel");
+ //       SetDescription("Auf der Station Citadel ist etwas furchtbar schiefgelaufen.\nDu bist vielleicht der letzte Überlebende.");
+ //   }
+ //   else // default to english
+ //   {
     	SetTitle("Derelict");
         SetDescription("As a cyborg you will serve SHODAN well.");
-    }
+ //   }
 }
 
 //
